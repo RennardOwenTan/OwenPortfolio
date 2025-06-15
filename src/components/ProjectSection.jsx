@@ -39,12 +39,12 @@ const projects = [
   },
   {
     id: 5,
-    title: "Company Profile website",
-    description:"This was made a long time ago so it's very outdated, but its a website I made for my dad's store",
-    image: "/projects/MilionicMakmur.png",
-    tags: ["HTML","CSS"],
-    demoUrl: "https://rennardowentan.github.io/mitramilionicmakmur/",
-    githubUrl: "https://github.com/RennardOwenTan/mitramilionicmakmur",
+    title: "Personal Portfolio Website",
+    description:"The portfolio website you are currently on! Made using modern web development technologies.",
+    image: "/projects/OwenPortWeb.png",
+    tags: ["React","TailwindCSS", "JavaScript"],
+    demoUrl: "https://owen-portfolio-psi.vercel.app/",
+    githubUrl: "",
   },
   {
     id: 6,
