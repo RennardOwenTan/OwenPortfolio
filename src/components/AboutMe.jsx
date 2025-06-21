@@ -17,7 +17,7 @@ export const AboutMe = () => {
 
             <p className="text-muted-foreground">
               An aspiring Software Engineer with 2+ years of hands-on experience in building robust systems using Python, Java, C, and R. 
-              Strong foundation in algorithms, data structures, and OOP, backed by a 3.73 GPA in Computer Science. 
+              Strong foundation in algorithms, data structures, and OOP, backed by a 3.76 GPA in Computer Science. 
               Passionate about writing clean, efficient code and solving complex problems—whether optimizing backend services, analyzing data, or developing scalable applications.
             </p>
 
@@ -34,7 +34,7 @@ export const AboutMe = () => {
               </a>
 
               <a
-                href="/projects/RennardOwenTan_ImprovedResume.pdf" download="RennardOwenTan_CV.pdf"
+                href="/projects/RennardOwenTan_Resume_Updated.pdf" download="RennardOwenTan_CV.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
