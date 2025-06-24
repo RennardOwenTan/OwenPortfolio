@@ -3,39 +3,39 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML/CSS", level: 40, category: "frontend" },
-  { name: "React", level: 60, category: "frontend" },
-  { name: "Tailwind CSS", level: 60, category: "frontend" },
+  { name: "HTML/CSS", level: 30, category: "frontend" },
+  { name: "React", level: 50, category: "frontend" },
+  { name: "Tailwind CSS", level: 50, category: "frontend" },
   { name: "JavaScript", level: 15, category: "frontend" },
 
   // Backend
-  { name: "C", level: 75, category: "backend" },
-  { name: "Java", level: 60, category: "backend" },
-  { name: "Python", level: 65, category: "backend" },
-  { name: "R", level: 60, category: "backend" },
-  { name: "GML", level: 75, category: "backend" },
-  { name: "Kotlin", level: 70, category: "backend" },
-  { name: "Pandas", level: 40, category: "backend" },
+  { name: "C", level: 65, category: "backend" },
+  { name: "Java", level: 50, category: "backend" },
+  { name: "Python", level: 55, category: "backend" },
+  { name: "R", level: 50, category: "backend" },
+  { name: "GML", level: 65, category: "backend" },
+  { name: "Kotlin", level: 60, category: "backend" },
+  { name: "Pandas", level: 30, category: "backend" },
 
   // Tools
-  { name: "GitHub", level: 60, category: "tools" },
-  { name: "Figma", level: 70, category: "tools" },
-  { name: "VS Code", level: 75, category: "tools" },
-  { name: "GameMaker Studio 2", level: 75, category: "tools" },
-  { name: "Ren'Py", level: 70, category: "tools" },
-  { name: "Google Colab", level: 70, category: "tools" },
-  { name: "R studio", level: 60, category: "tools" },
-  { name: "Android Studio", level: 70, category: "tools" },
-  { name: "Microsoft Excel", level: 75, category: "tools" },
+  { name: "GitHub", level: 50, category: "tools" },
+  { name: "Figma", level: 60, category: "tools" },
+  { name: "VS Code", level: 65, category: "tools" },
+  { name: "GameMaker Studio 2", level: 65, category: "tools" },
+  { name: "Ren'Py", level: 60, category: "tools" },
+  { name: "Google Colab", level: 60, category: "tools" },
+  { name: "R studio", level: 50, category: "tools" },
+  { name: "Android Studio", level: 60, category: "tools" },
+  { name: "Microsoft Excel", level: 65, category: "tools" },
 
   // Miscellaneous
   { name: "English", level: 90, category: "miscellaneous" },
   { name: "Bahasa Indonesia", level: 90, category: "miscellaneous" },
-  { name: "Project Management", level: 65, category: "miscellaneous" },
-  { name: "Data Analysis", level: 75, category: "miscellaneous" },
-  { name: "Cloud Computing", level: 65, category: "miscellaneous" },
-  { name: "Video Game Development", level: 75, category: "miscellaneous" },
-  { name: "Creative Problem Solving", level: 75, category: "miscellaneous" },
+  { name: "Project Management", level: 55, category: "miscellaneous" },
+  { name: "Data Analysis", level: 65, category: "miscellaneous" },
+  { name: "Cloud Computing", level: 55, category: "miscellaneous" },
+  { name: "Video Game Development", level: 65, category: "miscellaneous" },
+  { name: "Creative Problem Solving", level: 65, category: "miscellaneous" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools", "miscellaneous"];
