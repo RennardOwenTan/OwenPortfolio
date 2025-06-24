@@ -3,39 +3,39 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML/CSS", level: 60, category: "frontend" },
+  { name: "HTML/CSS", level: 40, category: "frontend" },
   { name: "React", level: 60, category: "frontend" },
   { name: "Tailwind CSS", level: 60, category: "frontend" },
   { name: "JavaScript", level: 15, category: "frontend" },
 
   // Backend
-  { name: "C", level: 95, category: "backend" },
+  { name: "C", level: 75, category: "backend" },
   { name: "Java", level: 60, category: "backend" },
-  { name: "Python", level: 95, category: "backend" },
-  { name: "R", level: 70, category: "backend" },
-  { name: "GML", level: 95, category: "backend" },
-  { name: "Kotlin", level: 90, category: "backend" },
-  { name: "Pandas", level: 90, category: "backend" },
+  { name: "Python", level: 65, category: "backend" },
+  { name: "R", level: 60, category: "backend" },
+  { name: "GML", level: 75, category: "backend" },
+  { name: "Kotlin", level: 70, category: "backend" },
+  { name: "Pandas", level: 40, category: "backend" },
 
   // Tools
-  { name: "GitHub", level: 70, category: "tools" },
-  { name: "Figma", level: 80, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
-  { name: "GameMaker Studio 2", level: 95, category: "tools" },
+  { name: "GitHub", level: 60, category: "tools" },
+  { name: "Figma", level: 70, category: "tools" },
+  { name: "VS Code", level: 75, category: "tools" },
+  { name: "GameMaker Studio 2", level: 75, category: "tools" },
   { name: "Ren'Py", level: 70, category: "tools" },
-  { name: "Google Colab", level: 90, category: "tools" },
-  { name: "R studio", level: 70, category: "tools" },
-  { name: "Android Studio", level: 90, category: "tools" },
-  { name: "Microsoft Excel", level: 95, category: "tools" },
+  { name: "Google Colab", level: 70, category: "tools" },
+  { name: "R studio", level: 60, category: "tools" },
+  { name: "Android Studio", level: 70, category: "tools" },
+  { name: "Microsoft Excel", level: 75, category: "tools" },
 
   // Miscellaneous
-  { name: "English", level: 100, category: "miscellaneous" },
-  { name: "Bahasa Indonesia", level: 100, category: "miscellaneous" },
-  { name: "Project Management", level: 75, category: "miscellaneous" },
-  { name: "Data Analysis", level: 85, category: "miscellaneous" },
+  { name: "English", level: 90, category: "miscellaneous" },
+  { name: "Bahasa Indonesia", level: 90, category: "miscellaneous" },
+  { name: "Project Management", level: 65, category: "miscellaneous" },
+  { name: "Data Analysis", level: 75, category: "miscellaneous" },
   { name: "Cloud Computing", level: 65, category: "miscellaneous" },
-  { name: "Video Game Development", level: 90, category: "miscellaneous" },
-  { name: "Creative Problem Solving", level: 90, category: "miscellaneous" },
+  { name: "Video Game Development", level: 75, category: "miscellaneous" },
+  { name: "Creative Problem Solving", level: 75, category: "miscellaneous" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools", "miscellaneous"];
@@ -46,6 +46,7 @@ export const Skill = () => {
   const filteredSkills = skills.filter(
     (skill) => activeCategory === "all" || skill.category === activeCategory
   );
+
   return (
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
